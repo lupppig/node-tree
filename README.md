@@ -1,6 +1,6 @@
 #  ASCII Binary Tree Visualizer (Go)
 
-A lightweight command-line tool that prints **binary trees as ASCII art**, complete with circle-shaped nodes and smooth diagonal branches — all rendered efficiently using Go’s `bytes.Buffer`.
+A simple node tree visualizer that prints **binary trees as ASCII art**, complete with circle-shaped nodes and smooth diagonal branches — all rendered efficiently using Go’s `bytes.Buffer`.
 
 ![ASCII Binary Tree Preview](./image/tree.png)
 

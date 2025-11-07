@@ -84,11 +84,9 @@ func draw(root *node) string {
 
 	layOut(root, 0)
 
-	// size canvas (add margins)
 	width := maxX + unit + 20
 	height := maxY + depthGap + 10
 
-	// lines as byte slices for fast writes
 	lines := make([][]byte, height)
 	for i := range lines {
 		lines[i] = make([]byte, width)
@@ -109,7 +107,6 @@ func draw(root *node) string {
 		}
 	}
 
-	// draw recursively: nodes then connectors
 	var drawRec func(n *node)
 	drawRec = func(n *node) {
 		if n == nil {
