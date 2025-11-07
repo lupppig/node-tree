@@ -202,7 +202,6 @@ func draw(root *node) string {
 	return buf.String()
 }
 
-// sample tree identical to yours
 func sampleTree() *node {
 	return &node{
 		val: "1",
